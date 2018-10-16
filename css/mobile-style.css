@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    /* this allows the box to have a border without adding the border width to the box */
+}
+
+#page {
+    max-width: 760px;
+    min-width:480px;
+    margin:0px auto;
+    background-color: red;
+
+}
+
+header {
+    background-color: blue;
+    width: 100%;
+    height: 75px;
+    border: 1px solid black;
+}
+
+aside {
+    float: left;
+    background-color: red;
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    border-top: 0px;
+}
+#half li{
+    display: inline-block;
+    width: 100%;
+    height: 125px;
+    background-color: yellow;
+    border: 1px solid black;
+    
+}
+
+#quarter li{
+    display: inline-block;
+    width: 50%;
+    height: 250px;
+    background-color: green;
+    border: 1px solid black;
+    /* margin: 0px; */
+    border-left: 1px;
+    
+}
+footer{
+    border: 1px solid black;
+    background-color: purple;
+    width: 100%;
+    height: 80px;
+    clear: both;
+}
