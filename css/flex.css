@@ -1,0 +1,83 @@
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+
+
+
+    * {
+        box-sizing:border-box;
+    
+    
+        /* draws border arround every element */
+        border: solid black 2px; 
+    }
+    
+    @media only screen and (max-width: 600px) {
+        body {
+            background-color: lightblue;
+        }
+    }
+    body {
+        height: 100%;
+    }
+    /* 
+    body {
+        display:flex;
+        flex-direction:column;
+    } */
+    
+    
+    body > header, body > footer {
+        background:#444;
+        color: #eee;
+        height: 70px;
+        line-height:70px;
+    }
+    
+    main {
+        height: 60%;
+        display:flex;
+        /* flex-wrap:wrap; */
+        /* justify-content: space-evenly; */
+    }
+    aside {
+        height: 100%;
+        width: 20%;
+    }
+    header {
+    height: 20%;
+    }
+    footer {
+        height: 20%;
+    }
+    
+    div{
+        display:flex;
+        flex-direction:column;
+        width: 100%;
+    }
+    .deck1{
+        display:flex;
+        /* flex-wrap:wrap; */
+        justify-content: space-evenly;
+    }
+    
+    .deck2{
+        display:flex;
+        /* flex-wrap:wrap; */
+        justify-content: space-evenly;
+    }
+
+.deck1 div {
+    height: 200px;
+    
+}
+.deck2 div {
+    height: 200px;
+    
+}
+
+
+} /*ends the media query*/
+
+
+
